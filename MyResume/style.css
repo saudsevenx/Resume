@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    align-items: center;   
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
+    width: fit-content;
+    height: fit-content;
+}
+a{
+    text-decoration: none;
+    color: #e6ccb2;
+}
+.resumeContainer{
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    border: 0.1px solid black;
+    border-radius: 8px;    
+    background-color: #264653;
+    align-self: center;
+    width: fit-content;
+    height: 950px;
+    margin: 2px 30%;
+}
+.resumeHeader {
+    margin:0%;
+    padding: 10px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    background-color: #e6ccb2;
+    width: 910px;
+    height: 200px;
+    display: inline-block;
+}
+img{
+    position: relative;
+    border: 0.8px solid;
+    border-radius: 50%;
+    border-color: #264653;
+    left: 80px;
+    top: 20px;
+
+}
+.intro{
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    font-size: 5rem;
+    color: #264653;
+    line-height: 60px;
+    left: 460px;
+    top: -270px;
+
+}
+.intro>p+p{
+    position: relative;
+    left: 20px;
+}
+.intro>p+p+p{
+    position: relative;
+    font-size: xx-large;
+    left: 60px;
+    text-decoration: underline;
+}
+.resumeBody{
+    display: flexbox;
+    height: 230px;
+    margin: 0%;
+    padding: 0%;
+    color: #e6ccb2;
+    padding-left: 20px;
+    line-height: 40px;
+    font-size: large;
+}
+.technicalSkills{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    color: #e6ccb2;
+    padding-left: 20px;
+    padding-right: 15px;
+    line-height: 40px;
+    font-size: large;
+    top: -100px;
+    left: 30px;
+}
+.technicalSkills>h1{
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+
+.projects{
+    position: relative;
+    color: #e6ccb2;
+    padding-left: 20px;
+    padding-right: 15px;
+    line-height: 40px;
+    font-size: large;
+    left: 30px;
+    top: -60px;
+  
+}
+.projects>h1{
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+
+.bioSection{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    color: #e6ccb2;
+    padding-left: 20px;
+    padding-right: 15px;
+    left: 400px;
+    top: -720px
+}
+
+.hobbies{
+    color: #e6ccb2;
+    padding-left: 20px;
+    line-height: 28px;
+    font-size: large;
+    position: relative;
+    left: 400px;
+    top: -650px;
+}
+.hobbies>h1{
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+.interests{
+    color: #e6ccb2;
+    padding-left: 20px;
+    line-height: 28px;
+    font-size: large;
+    position: relative;
+    left: 400px;
+    top: -680px;
+}
+.interests>h1{
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+
+.roles{
+    color: #e6ccb2;
+    padding-left: 20px;
+    line-height: 28px;
+    font-size: large;
+    position: relative;
+    left: 670px;
+    top: -830px;
+    text-decoration: none;
+   
+}
+.roles>h1{
+    padding-bottom: 10px;
+    font-size: 3rem;
+}
+.roles>ul>li{
+    text-decoration: none ;
+}
+
+
